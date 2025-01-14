@@ -1,7 +1,6 @@
-# Partage de fichiers sous Windows
+# Partage de fichiers sous Windows avec SMB
 
 
-# Partage SMB
 Quête WCS partage de fichier sous Windows Server 2022
 
 
@@ -32,8 +31,8 @@ Quête WCS partage de fichier sous Windows Server 2022
 
 ## 5) Réglage des droits d'accès
 
-![SMB](https://github.com/Hebus79/Partage_fichiers_SMB/blob/main/images/.png)
-![SMB](https://github.com/Hebus79/Partage_fichiers_SMB/blob/main/images/.png)
+![SMB](https://github.com/Hebus79/Partage_fichiers_SMB/blob/main/images/Autorisations_docs.png)
+![SMB](https://github.com/Hebus79/Partage_fichiers_SMB/blob/main/images/Autorisations_repertoire_direction.png)
 
 ## 5) Montage d'un disque réseau sur un client sous Windows avec la commande Powershell New-PSDrive
 
@@ -49,17 +48,4 @@ Impossible d'écrire dans le reprtoire RH avec le compte WilderDirection
 
 
 
-## 7) XXXX
-
-
-![SMB](https://github.com/Hebus79/Partage_fichiers_SMB/blob/main/images/.png)
-
-
-## 8) XXXXX
-
-![SMB](https://github.com/Hebus79/Partage_fichiers_SMB/blob/main/images/.png)
-
-
-
-
-## 8) Vérifier que la GPO s'applique bien en se connectant avec un client Windows au domaine "Wilders.lan" et avec un utilisateur appartenant au groupe "Students"
+Tout fonctionne bien.
